@@ -205,8 +205,6 @@ public class PrototypePatternEx {
     * Concrete Prototype: implementa o método clone.
     * Client: produz uma cópia do protótipo.
 
-![prototype](/components/prototype.png "prototype components")
-
 - **Vantagens**
 
     1. Você pode clonar objetos sem acoplá-los a suas classes concretas.
