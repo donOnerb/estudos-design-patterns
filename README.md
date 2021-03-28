@@ -164,7 +164,7 @@ public class Ford extends Carro {
 }
 ```
 
-- Solução
+- **Solução**
 
 O padrão prototype delega a responsabilidade de clonar o objeto ao próprio objeto que está sendo clonado.
 
@@ -205,7 +205,7 @@ public class PrototypePatternEx {
     * Concrete Prototype: implementa o método clone.
     * Client: produz uma cópia do protótipo.
 
-Markup : ![builder](https://github.com/donOnerb/estudos-design-patterns/blob/main/components/prototype.png "prototype components")
+![builder](https://github.com/donOnerb/estudos-design-patterns/blob/main/components/prototype.png "prototype components")
 
 - **Vantagens**
 
