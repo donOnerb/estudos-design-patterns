@@ -1,3 +1,5 @@
+package adapter;
+
 public class AdaptadorAParaB implements UtilitariosProvedorDeDados {
 
     private BibliotecaDeAnalises bibliotecaDeAnalises;
@@ -11,6 +13,6 @@ public class AdaptadorAParaB implements UtilitariosProvedorDeDados {
     }
 
     private B converteAParaB(A a) {
-        return new B(a.getA() + "Sou o Adapter, eu converti A para B\n");
+        return new B(a.getA() + "Sou o Adapter, eu converti adapter.A para adapter.B\n");
     }
 }

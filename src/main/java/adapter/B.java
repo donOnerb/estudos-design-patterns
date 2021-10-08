@@ -1,3 +1,5 @@
+package adapter;
+
 public class B {
     private String b;
 

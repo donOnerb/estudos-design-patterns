@@ -1,3 +1,5 @@
+package adapter;
+
 public class BibliotecaDeAnalises {
 
     public String plotData(B b) {
